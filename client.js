@@ -12,6 +12,12 @@ const connect = function() {
     console.log("you ded cuz you idled");
   });
 
+  // connection successful event handler & name written to server snake
+  conn.on("connect", () => {
+    console.log("Successfully connected to game server");
+    conn.write("Name: ACF");
+  });
+
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
