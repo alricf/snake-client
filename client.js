@@ -16,7 +16,7 @@ const connect = function() {
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
     conn.write("Name: ACF");
-    
+
     // conn.write("Move: up");
 
     // Moves snake right after 50ms
