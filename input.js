@@ -31,6 +31,9 @@ const handleUserInput = function(key) {
     connection.write("Move: right");
   }
 
+  // Say Message upon snake moving
+  connection.write("Say: Sup");
+
 };
 
 module.exports = { setupInput };
