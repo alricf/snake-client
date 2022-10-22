@@ -7,6 +7,7 @@ This is simply a multiplayer take on the genre. The snake-client application has
 Before you can run this client, you will need to be running the server side which you can download and install from here - https://github.com/lighthouse-labs/snek-multiplayer. 
 
 ## Final Product
+
 1) `npm run play` - In the beginning there was snake food but no snake to nourish by the snek server.
 ![npm run play](screenshots/screenshotServerStart.png)
 
