@@ -1,4 +1,4 @@
-// Stores the active TCP connection object.
+// stores the active TCP connection object.
 let connection;
 
 // setup interface to handle user input from stdin
@@ -31,7 +31,7 @@ const handleUserInput = function(key) {
     connection.write("Move: right");
   }
 
-  // Say Message upon snake moving
+  // say message upon snake moving
   connection.write("Say: Sup");
 
 };

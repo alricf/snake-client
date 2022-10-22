@@ -13,7 +13,7 @@ const connect = function() {
     console.log("you ded cuz you idled");
   });
 
-  // connection successful event handler & name written to server snake
+  // connection successful event handler & name written to server
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
     conn.write("Name: ACF");

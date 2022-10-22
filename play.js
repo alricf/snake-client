@@ -3,5 +3,5 @@ const { setupInput } = require("./input");
 
 console.log("Connecting ...");
 
-// Pass in returned object called conn from connect function in client.js file into setupInput function in input.js file.
+// pass in returned object called conn from connect function in client.js file into setupInput function in input.js file.
 setupInput(connect());
